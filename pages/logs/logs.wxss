@@ -1,0 +1,27 @@
+page {
+    height: 100%;
+}
+
+.contianer {
+    height: 1000px;
+    width: 100%;
+    background-color: #eeefff;
+}
+
+.firstStatic {
+    height: 30vh;
+    width: 100%;
+    background-color: skyblue;
+}
+
+.secondStatic {
+    height: 30vh;
+    width: 100%;
+    background-color: blueviolet;
+}
+
+.summary {
+    height: 40vh;
+    width: 100%;
+    background-color:rebeccapurple;
+}

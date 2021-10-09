@@ -1,0 +1,15 @@
+<!--logs.wxml-->
+<view class="container">
+    <!-- 一个条形统计卡片 -->
+    <view class="firstStatic">
+        条形统计
+    </view>
+    <!-- 折线统计卡片 -->
+    <view class="secondStatic">
+        折线统计
+    </view>
+    <!-- 文字综述 -->
+    <view class="summary">
+         平均日期
+    </view>
+</view>

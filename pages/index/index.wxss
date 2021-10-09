@@ -1,0 +1,43 @@
+/**index.wxss**/
+page {
+  height: 100%;
+}
+
+.container {
+  background-color: #eeefff;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 20rpx 0;
+}
+
+.calendar {
+  --calendar-height: 666rpx;
+}
+
+.xinqing {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top {
+  height: 60vh;
+}
+
+.bottom {
+  flex: 1;
+  height: 40vh;
+}
+
+.bottom-card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.bc-beizhu {
+  flex: 1
+}

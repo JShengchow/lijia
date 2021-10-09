@@ -1,0 +1,25 @@
+<!--index.wxml-->
+<view class="container">
+  <van-cell-group inset>
+    <view class="top">
+      <van-cell-group inset>
+        <van-calendar class="calendar" poppable="{{ false }}" type="multiple" show-confirm="{{ false }}"
+          min-date="{{minDate}}" max-date="{{maxDate}}" show-title="{{false}}" row-height="42"
+          show-subtitle="{{false}}" />
+      </van-cell-group>
+    </view>
+    <view class="bottom">
+      <van-cell-group inset title="这天怎么样?" class="bottom-card">
+        <van-cell title-width="150rpx" title="是否经期">
+          <van-switch checked="{{ checked }}" active-color="#07c160" size="48rpx" inactive-color="#ee0a24" />
+        </van-cell>
+        <van-cell title-width="100rpx" title="心情">
+          <van-rate value="{{ value }}" icon="like" void-icon="like-o" bind:change="onChange" />
+        </van-cell>
+        <van-cell class="bc-beizhu" title-width="150rpx" title="备注">
+          <van-field value="{{ message }}" type="textarea" placeholder="请输入留言" autosize />
+        </van-cell>
+      </van-cell-group>
+    </view>
+  </van-cell-group>
+</view>
